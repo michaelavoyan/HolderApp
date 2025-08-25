@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "713384108911",
+    "project_id": "velocity-career-labs-dev",
+    "storage_bucket": "velocity-career-labs-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:080391f976eefbe850fe9a",
+        "android_client_info": {
+          "package_name": "com.velocity.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-fqdm5ahlb9rtr3j2l906cm2dnm6fjspt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.velocity.mobile",
+            "certificate_hash": "7c4d77b55cf8b5dab7fff987e8860b712f3ec060"
+          }
+        },
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:9cef5c7cf45a01d850fe9a",
+        "android_client_info": {
+          "package_name": "com.velocitycareerlabs.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:809dbdf8631d343c50fe9a",
+        "android_client_info": {
+          "package_name": "io.velocitycareerlabs.holderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:8d62cd88d01d9ffb50fe9a",
+        "android_client_info": {
+          "package_name": "io.velocitycareerlabs.holderapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:d86dbc35dab663d850fe9a",
+        "android_client_info": {
+          "package_name": "io.velocitycareerlabs.holderapp.dev.gamma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:f8336e2952b6de8150fe9a",
+        "android_client_info": {
+          "package_name": "io.velocitycareerlabs.holderapp.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713384108911:android:ee94f33fe591b91650fe9a",
+        "android_client_info": {
+          "package_name": "io.velocitycareerlabs.holderapp.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlU0bYKfe_KBkyvyXhKriDqYIJMKw-zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713384108911-q2tfa2162sddjgipqa6l66p5hmfnm2o1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713384108911-00mrot06vhhhvc5r56m72f5753q7fr52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.velocitycareerlabs.holderapp.staging"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

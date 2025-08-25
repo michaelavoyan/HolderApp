@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name="io.velocitycareerlabs.holderapp.MainApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/App.Theme"
+        android:usesCleartextTraffic="false"
+        tools:replace="android:usesCleartextTraffic">
+
+        <activity
+            tools:node="replace"
+            android:name="io.velocitycareerlabs.holderapp.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+            <intent-filter
+                android:label="filter_velocity_network"
+                android:autoVerify="false">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="velocity-network" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

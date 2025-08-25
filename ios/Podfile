@@ -1,0 +1,89 @@
+# CocoaPods CDN
+source 'https://cdn.cocoapods.org/'
+# VCL specs
+source 'https://github.com/velocitycareerlabs/Specs.git'
+
+# Resolve react_native_pods.rb with node to allow for hoisting
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native/scripts/react_native_pods.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
+
+platform :ios, min_ios_version_supported
+prepare_react_native_project!
+
+linkage = ENV['USE_FRAMEWORKS']
+if linkage != nil
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  use_frameworks! :linkage => linkage.to_sym
+end
+
+def common_pods
+  config = use_native_modules!
+
+  # Permissions Reconsider uncommenting the permissions!
+#   pod 'Permission-FaceID', :path => "../node_modules/react-native-permissions/ios/FaceID"
+#   pod 'Permission-Camera', :path => "../node_modules/react-native-permissions/ios/Camera"
+
+  # Firebase. Keep modular headers consistent to avoid header search issues with frameworks
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCoreInternal', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  pod 'Firebase/Messaging', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+
+  # Sentry
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+  # Yoti common
+#   use_frameworks!
+#   use_native_modules!
+#   pod 'YotiDocumentScan'                # Include if `YotiSDKIdentityDocument` is included and to support identity document OCR
+#   pod 'YotiNFC'                         # Include if `YotiSDKIdentityDocument` is included and to support identity document NFC
+  pod 'YotiSDKIdentityDocument'         # Optional
+  pod 'YotiSDKSupplementaryDocument'    # Optional
+#   pod 'YotiSDKFaceTec'                  # Optional
+  pod 'YotiSDKFaceCapture'              # Optional
+
+  # Reclaim
+#   pod 'ReclaimInAppSdk'
+
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+
+  post_install do |installer|
+    # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+      # :ccache_enabled => true
+    )
+  end
+end
+
+target 'HolderApp' do
+    common_pods
+end
+
+# target 'HolderApp-Staging' do
+#   common_pods
+# end
+#
+# target 'HolderApp-Qa' do
+#   common_pods
+# end
+#
+# target 'HolderApp-Dev' do
+#   common_pods
+# end
+#
+# target 'HolderApp-DevGamma' do
+#   common_pods
+# end
