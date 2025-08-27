@@ -1,0 +1,14 @@
+node_modules/**
+android/**
+ios/**
+jest.config.js
+__tests__/**
+
+babel.config.js
+babel.config.jest.js
+metro.config.js
+setupJestAfterEnv.js
+secrets.js
+readKeybaseSecrets.js
+app/api/linkedin-config.js
+.eslintrc.js
