@@ -183,10 +183,6 @@ PODS:
     - nanopb/encode (= 3.30910.0)
   - nanopb/decode (3.30910.0)
   - nanopb/encode (3.30910.0)
-  - Picker (4.3.7):
-    - Picker/Core (= 4.3.7)
-  - Picker/Core (4.3.7):
-    - React
   - PromisesObjC (2.4.0)
   - RCT-Folly (2024.11.18.00):
     - boost
@@ -3321,7 +3317,7 @@ PODS:
   - TOCropViewController (2.7.4)
   - VCL (2.7.6)
   - VCLAuth (1.4.0)
-  - VclAuthReactNative (1.6.0):
+  - VclAuthReactNative (1.6.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -3432,7 +3428,6 @@ DEPENDENCIES:
   - "InappRnSdk (from `../node_modules/@reclaimprotocol/inapp-rn-sdk`)"
   - "logrocket-react-native (from `../node_modules/@logrocket/react-native`)"
   - MixpanelReactNative (from `../node_modules/mixpanel-react-native`)
-  - Picker (from `../node_modules/react-native-picker`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
   - RCTRequired (from `../node_modules/react-native/Libraries/Required`)
@@ -3599,8 +3594,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@logrocket/react-native"
   MixpanelReactNative:
     :path: "../node_modules/mixpanel-react-native"
-  Picker:
-    :path: "../node_modules/react-native-picker"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTDeprecation:
@@ -3832,7 +3825,6 @@ SPEC CHECKSUMS:
   Mixpanel-swift: 7b26468fc0e2e521104e51d65c4bbf7cab8162f8
   MixpanelReactNative: cdcfe933b8ce89aadd183f17aad3c8529daccb94
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
-  Picker: 94d2218a9f89c063154da89f0187e8e4e9de3346
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RCT-Folly: 846fda9475e61ec7bcbf8a3fe81edfcaeb090669
   RCTDeprecation: 0735ab4f6b3ec93a7f98187b5da74d7916e2cf4c
@@ -3939,7 +3931,7 @@ SPEC CHECKSUMS:
   TOCropViewController: 80b8985ad794298fb69d3341de183f33d1853654
   VCL: 3b27df03a7a8f4dd4618dbe9cd3af2f53035ef44
   VCLAuth: 4855f9dfc020f3975402faccf250fcff1807f3c4
-  VclAuthReactNative: fffe02839dd62aa08299d32ce852a4454759f61e
+  VclAuthReactNative: fa3dfe6810807e28a56f524070911e1118f10472
   velocitycareerlabs-vcl-react-native: 395c9a2612cccaeecffae626da34e5602ac50097
   VisionCamera: 9a8f98ae344fe5d148f84bb45829f9e4caab9d2f
   Yoga: 00013dd9cde63a2d98e8002fcc4f5ddb66c10782

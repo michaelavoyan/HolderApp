@@ -242,8 +242,7 @@ dependencies {
     }
 
     // required to avoid crash on Android 12 API 31
-    // Needs to be upgraded after setting API 35
-    implementation 'androidx.work:work-runtime-ktx:2.9.1'
+    implementation 'androidx.work:work-runtime-ktx:2.10.3'
 
     // Yoti:
     // With automatic capture via OCR and NFC capture

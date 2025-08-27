@@ -4647,10 +4647,10 @@
     react-native-raw-bottom-sheet "^2.2.0"
     underscore.string "^3.3.5"
 
-"@velocitycareerlabs/vcl-auth-react-native@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@velocitycareerlabs/vcl-auth-react-native/-/vcl-auth-react-native-1.6.0.tgz#fb40ba31ef35d021fc1a7d309f5884442b79237c"
-  integrity sha512-koPNSp2a5MZgynssAJ0qLDYYdtckM4Whmaql2AljBe3jj5EI9muQ9VnZePPow/bc+3DSAwylIrES/MXnuGKrAw==
+"@velocitycareerlabs/vcl-auth-react-native@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@velocitycareerlabs/vcl-auth-react-native/-/vcl-auth-react-native-1.6.1.tgz#bf7503a912a3ff1c06ae16e8b27586d4f70a4891"
+  integrity sha512-xh+cDX6oKCu8ABEoKIDnJe2N+9LB8KwMyMSAj5HEHY0ZsIORPL6niDxbk81NqYLUX4B/PXgzNsVy/S9okdqZ8g==
 
 "@velocitycareerlabs/vcl-react-native@^2.7.6":
   version "2.7.6"
@@ -10332,11 +10332,6 @@ is-unicode-supported@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
   integrity sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==
-
-is-unicode-supported@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/is-unicode-supported/-/is-unicode-supported-1.3.0.tgz#d824984b616c292a2e198207d4a609983842f714"
-  integrity sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ==
 
 is-weakmap@^2.0.2:
   version "2.0.2"
