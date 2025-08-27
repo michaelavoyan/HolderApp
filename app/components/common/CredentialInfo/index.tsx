@@ -1,0 +1,1 @@
+export {CredentialInfo} from './CredentialInfo';

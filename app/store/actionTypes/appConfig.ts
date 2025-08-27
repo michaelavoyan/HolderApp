@@ -1,0 +1,3 @@
+export const GET_APP_CONFIG = 'GET_APP_CONFIG';
+export const GET_APP_CONFIG_SUCCESS = 'GET_APP_CONFIG_SUCCESS';
+export const SET_IS_DEBUG_ON = 'SET_IS_DEBUG_ON';

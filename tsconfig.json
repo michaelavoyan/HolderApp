@@ -1,5 +1,60 @@
 {
-  "extends": "@react-native/typescript-config",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
+    "extends": "@react-native/typescript-config/tsconfig.json",
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "NodeNext",
+        "lib": [
+            "es6",
+            "es2017.object",
+            "es2016.array.include",
+            "es2019.array",
+            "dom"
+        ],
+        "allowJs": true,
+        "jsx": "react-native",
+        "noEmit": true,
+        "incremental": true,
+        "isolatedModules": true,
+        "strict": true,
+        "moduleResolution": "NodeNext",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "app/*": ["app/*"],
+            "storybook/*": ["storybook/*"]
+        },
+        // Sentry - Generate Source Maps
+        "sourceMap": true,
+        "inlineSources": true,
+        "sourceRoot": "/"
+    },
+    "include": [
+        "app/**/*.js",
+        "app/**/*.ts",
+        "app/**/*.tsx",
+        "storybook/**/*.js",
+        "storybook/**/*.ts",
+        "storybook/**/*.tsx",
+        "__tests__/**/*.js",
+        "__tests__/**/*.ts",
+        "__tests__/**/*.tsx",
+        "__mocks__/**/*.js",
+        "__mocks__/**/*.ts",
+        "__mocks__/**/*.tsx",
+        "utils/**/*.js",
+        "utils/**/*.ts",
+        "utils/**/*.tsx",
+        "declarations.d.ts",
+        "readKeybaseSecrets.js",
+        "index.js",
+        "check-license.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "babel.config.jest.js",
+        "metro.config.js",
+        "jest.config.js"
+    ]
 }
