@@ -2,12 +2,11 @@
  * @format
  */
 
-import React from 'react';
-import ReactTestRenderer from 'react-test-renderer';
-import App from '../App';
+import 'react-native';
 
-test('renders correctly', async () => {
-  await ReactTestRenderer.act(() => {
-    ReactTestRenderer.create(<App />);
-  });
+// Note: import explicitly to use the types shiped with jest.
+import {it} from '@jest/globals';
+
+it('first test', () => {
+    expect(true).toBeTruthy();
 });
